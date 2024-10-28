@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import {  BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
-import Header from './components/Header'
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 import MainPage from './pages/MainPage';
 import ExperiencePage from './pages/ExperiencePage';
@@ -31,7 +32,9 @@ function App() {
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/projects" element={<ProjectPage />} />
       </Routes>
+      <Footer />
     </>
+
   );
 }
 
