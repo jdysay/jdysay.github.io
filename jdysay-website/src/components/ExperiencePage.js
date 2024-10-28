@@ -4,9 +4,9 @@ import Header from './Header';
 function MainPage() {
     return (
         <div>
-            <Header title="Jaycie Say">
+            <Header title="Experience">
                 <main>
-                    <p>Bio</p>
+                    <p>info</p>
                 </main>
             </Header>
         </div>
