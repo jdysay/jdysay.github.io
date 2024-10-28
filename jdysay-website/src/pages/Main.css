@@ -10,3 +10,16 @@
     padding-left: 50px;
     line-height: 1.6;
 }
+
+.sidebar-content {
+    background-color: #f4f4f4;
+    color: #F457A3;
+    text-align: center;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.sidebar-content p {
+    color: 494949;
+}
