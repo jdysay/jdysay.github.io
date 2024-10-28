@@ -26,6 +26,11 @@ function ExperiencePage() {
             <div className="images">
                 <p>images</p>
             </div>
+            <sidebar>
+                <div className="sidebar-content">
+                    <h2>Skills</h2>
+                </div>
+            </sidebar>
         </div>
     );
 }
