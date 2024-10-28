@@ -4,8 +4,8 @@ import './Project.css';
 
 function ProjectPage() {
     return (
-        <div>
-            <Header title="Projects">
+        <div className="project-page">
+            <Header title="Projects" className="header">
                 <main>
                     <p>info</p>
                 </main>
