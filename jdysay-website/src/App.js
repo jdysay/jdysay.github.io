@@ -27,14 +27,15 @@ function App() {
   return (
     <>
       <Header title={title} />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/experience" element={<ExperiencePage />} />
-        <Route path="/projects" element={<ProjectPage />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/projects" element={<ProjectPage />} />
+        </Routes>
+      </div>
       <Footer />
     </>
-
   );
 }
 
