@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import './Experience.css';
 
 function ExperiencePage() {
     return (
@@ -13,4 +14,4 @@ function ExperiencePage() {
     );
 }
 
-export default MainPage;
+export default ExperiencePage;

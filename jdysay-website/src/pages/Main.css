@@ -1,0 +1,9 @@
+.main-page .header {
+    background-color: #FD78B8;
+    color: #f4f4f4;
+    border-radius: 70px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bagel Fat One', sans-serif;
+}
