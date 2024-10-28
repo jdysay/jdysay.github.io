@@ -1,0 +1,11 @@
+.experience-page{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    color: #494949;
+}
+
+h2 {
+    color: #F457A3;
+}
