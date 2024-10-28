@@ -4,8 +4,8 @@ import './Main.css';
 
 function MainPage() {
     return (
-        <div>
-            <Header title="Jaycie Say">
+        <div className="main-page">
+            <Header title="Jaycie Say" className="header">
                 <main>
                     <p>bio</p>
                 </main>
