@@ -15,11 +15,10 @@
     background-color: #f4f4f4;
     color: #F457A3;
     text-align: center;
-    padding: 30px;
+    padding: 100px;
+    padding-bottom: 300px;
     padding-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
     border-radius: 25px;
-}
-
-.sidebar-content p {
-    color: 494949;
 }
