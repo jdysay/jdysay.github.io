@@ -5,7 +5,7 @@ import './Project.css';
 function ProjectPage() {
     return (
         <div className="project-page">
-            <div className="project-content">
+            <div className="project-text">
                 <h2>Current Projects</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 

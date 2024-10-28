@@ -1,0 +1,24 @@
+.project-page {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+    padding: 20px;
+    color: #494949;
+}
+
+.project-text {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color:#494949;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+h2 {
+    color: #F457A3;
+}
