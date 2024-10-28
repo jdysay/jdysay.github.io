@@ -4,8 +4,8 @@ import './Experience.css';
 
 function ExperiencePage() {
     return (
-        <div>
-            <Header title="Experience">
+        <div className="experience-page">
+            <Header title="Experience" className="header">
                 <main>
                     <p>info</p>
                 </main>
