@@ -23,6 +23,9 @@ function ExperiencePage() {
                     mollit anim id est laborum.
                 </p>
             </div>
+            <div className="images">
+                <p>images</p>
+            </div>
         </div>
     );
 }
