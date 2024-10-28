@@ -5,7 +5,7 @@ import './Main.css';
 function MainPage() {
     return (
         <div className="main-page">
-           <main>
+
             <div className="text-content">
                 <h2>Hi!</h2>
                 <p>
@@ -15,6 +15,9 @@ function MainPage() {
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                 mollit anim id est laborum.
                 </p>
+            </div>
+            <div class="images">
+                <p>images</p>
             </div>
             <sidebar>
                 <div className="sidebar-content">
@@ -27,7 +30,6 @@ function MainPage() {
                 </div>
             </sidebar>
             
-           </main>
         </div>
     );
 }
