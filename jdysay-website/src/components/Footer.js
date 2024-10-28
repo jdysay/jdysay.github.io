@@ -7,7 +7,7 @@ function Footer() {
             <p>© 2024 Jaycie Say</p>
            <p>jds34@sfu.ca</p>
         </footer>
-    )
+    );
 }
 
 export default Footer;
