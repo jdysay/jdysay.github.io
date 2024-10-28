@@ -10,3 +10,15 @@
     padding-left: 50px;
     line-height: 1.6;
 }
+
+.sidebar-content {
+    background-color: #f4f4f4;
+    color: #F457A3;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 300px;
+    padding-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
