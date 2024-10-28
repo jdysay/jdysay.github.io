@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1 {
   font-family: 'Bagel Fat One', sans-serif;
+}
+
+p {
+  font-family: 'Georama', sans-serif;
 }

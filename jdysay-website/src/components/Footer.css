@@ -5,8 +5,5 @@
     padding: 10px;
     bottom: 0;
     width: 100%;
-}
-
-.contact-info {
-    text-align: right;
+    font-size: small;
 }
