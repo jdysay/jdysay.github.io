@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './Header';
 
-function MainPage() {
+function ProjectPage() {
     return (
         <div>
-            <Header title="Experience">
+            <Header title="Projects">
                 <main>
                     <p>info</p>
                 </main>
