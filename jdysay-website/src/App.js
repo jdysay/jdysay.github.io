@@ -17,7 +17,7 @@ function App() {
     case '/experience':
       title = "Experience";
       break;
-    case '/project':
+    case '/projects':
       title = "Projects";
       break;
     default:
@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/experience" element={<ExperiencePage />} />
-        <Route path="/project" element={<ProjectPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
       </Routes>
     </>
   );
