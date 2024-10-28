@@ -16,6 +16,16 @@ function MainPage() {
                 mollit anim id est laborum.
                 </p>
             </div>
+            <sidebar>
+                <div className="sidebar-content">
+                    <h2>resume</h2>
+                    <p>[link to resume]</p>
+                    <h2>contact</h2>
+                    <p>[link to LinkedIn]</p>
+                    <p>[link to github]</p>
+                    <p>[email]</p>
+                </div>
+            </sidebar>
             
            </main>
         </div>
