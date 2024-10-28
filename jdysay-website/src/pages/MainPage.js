@@ -5,11 +5,9 @@ import './Main.css';
 function MainPage() {
     return (
         <div className="main-page">
-            <Header title="Jaycie Say" className="header">
-                <main>
-                    <p>bio</p>
-                </main>
-            </Header>
+           <main>
+            <p>bio</p>
+           </main>
         </div>
     );
 }
