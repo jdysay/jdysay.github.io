@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import './Project.css';
 
 function ProjectPage() {
     return (
@@ -13,4 +14,4 @@ function ProjectPage() {
     );
 }
 
-export default MainPage;
+export default ProjectPage;
