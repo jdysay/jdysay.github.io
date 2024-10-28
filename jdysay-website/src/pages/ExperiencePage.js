@@ -5,11 +5,9 @@ import './Experience.css';
 function ExperiencePage() {
     return (
         <div className="experience-page">
-            <Header title="Experience" className="header">
-                <main>
-                    <p>info</p>
-                </main>
-            </Header>
+            <main>
+                <p>info</p>
+            </main>
         </div>
     );
 }
