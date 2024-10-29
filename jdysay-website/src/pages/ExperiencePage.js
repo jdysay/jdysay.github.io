@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import './Experience.css';
+import experienceImage from './images/trycatch_volunteer.jpg'
 
 function ExperiencePage() {
     return (
@@ -30,7 +31,7 @@ function ExperiencePage() {
                 </p>
             </div>
             <div className="images">
-                <p>images</p>
+                <img src={experienceImage} alt="try-catch volunteering image"></img>
             </div>
             <sidebar>
                 <div className="sidebar-content">

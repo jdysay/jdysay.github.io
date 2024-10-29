@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import './Main.css';
+import myImage from './images/headshot.png';
 
 function MainPage() {
     return (
@@ -24,7 +25,7 @@ function MainPage() {
                 <p>Bachelor of Computer Science - Software Systems 2023 - present</p>
             </div>
             <div class="images">
-                <p>images</p>
+                <img src={myImage} alt="headshot photo"></img>
             </div>
             <sidebar>
                 <div className="sidebar-content">
