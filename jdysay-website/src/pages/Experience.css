@@ -3,11 +3,13 @@
     grid-template-columns: 2fr 3fr 1fr;
     gap: 20px;
     padding: 20px;
+    margin-left: 80px;
     color: #494949;
 }
 
 .experience-text {
-    padding-left: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
     line-height: 2.0;
 }
 
@@ -38,5 +40,6 @@ li {
     padding-top: 10px;
     margin-right: 50px;
     margin-bottom: 20px;
+    margin-top: 75px;
     border-radius: 25px;
 }
