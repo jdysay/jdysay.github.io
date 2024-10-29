@@ -33,8 +33,17 @@ function MainPage() {
                         download my resume
                     </a>
                     <h2>contact</h2>
-                    <p>[link to LinkedIn]</p>
-                    <p>[link to github]</p>
+                    <p>
+                        <a href="www.linkedin.com/in/jaycie-say-923611274" target="_blank" rel="noopener noreferrer">
+                            link to my LinkedIn
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/jdysay" target="_blank" rel="noopener noreferrer">
+                            link to my github
+                        </a>
+                        
+                    </p>
                     <p><strong>Email: </strong> jaycie.say@outlook.com</p>
                     <p><strong>School Email: </strong> jds34@sfu.ca</p>
                 </div>
