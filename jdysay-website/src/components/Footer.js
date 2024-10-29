@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <p>© 2024 Jaycie Say</p>
+            <p>© 2024 jdysay</p>
         </footer>
     );
 }
