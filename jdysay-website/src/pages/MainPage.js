@@ -11,7 +11,12 @@ function MainPage() {
                 <p>
                     My name is Jaycie Say and I am a second year student at SFU in Software Systems.
                     Some of my interests outside of school and coding include music, baking and exploring
-                    the outdoors.
+                    the outdoors. I was a part of concert and jazz band in high school playing
+                    the drum kit and percussion. In addition I learned how to play the piano when I was 4 
+                    years old! During midterm and final season you can find me stres baking bookies, 
+                    muffins and scones. I have also started learning how to make fresh bread. Finally, in the summer
+                    I love hiking and kayaking. My favourite spot is to kayak at Rocky Point in 
+                    Port Moody as there are so many seals there in the summer!
                     
                 </p>
                 <h2>Education</h2>
