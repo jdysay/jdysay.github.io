@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import './Main.css';
 import myImage from './images/headshot.png';
 
@@ -24,7 +23,7 @@ function MainPage() {
                 <p>Bachelor of Computer Science - Software Systems 2023 - present</p>
             </div>
             <div class="images">
-                <img src={myImage} alt="headshot photo"></img>
+                <img src={myImage} alt="headshot"></img>
             </div>
             <sidebar>
                 <div className="sidebar-content">

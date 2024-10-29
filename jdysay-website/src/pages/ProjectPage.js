@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import './Project.css';
 import projectImage from './images/umi.png'
 
@@ -17,7 +16,7 @@ function ProjectPage() {
                 </p>
             </div>
             <div className="images">
-                <img src={projectImage} alt="image of our project icon"></img>
+                <img src={projectImage} alt="our project icon"></img>
             </div>
         </div>
     );
