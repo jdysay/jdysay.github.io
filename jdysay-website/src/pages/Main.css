@@ -1,6 +1,6 @@
 .main-page {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
     color: #494949;
@@ -9,20 +9,30 @@
 .text-content {
     padding-left: 50px;
     line-height: 1.6;
+    padding-bottom: 20px;
 }
 
 .sidebar-content {
     background-color: #f4f4f4;
     color:#494949;
     text-align: center;
-    padding: 100px;
-    padding-bottom: 300px;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 50px;
-    margin-bottom: 20px;
     border-radius: 25px;
+    line-height: 2;
 }
 
 h2 {
+    color: #F457A3;
+}
+
+a {
+    color: #494949;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
     color: #F457A3;
 }
