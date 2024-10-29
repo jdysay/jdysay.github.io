@@ -1,6 +1,6 @@
 .main-page {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
     color: #494949;
@@ -24,5 +24,15 @@
 }
 
 h2 {
+    color: #F457A3;
+}
+
+a {
+    color: #494949;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
     color: #F457A3;
 }
