@@ -8,11 +8,11 @@ function ProjectPage() {
             <div className="project-text">
                 <h2>Current Projects</h2>
                 <p>
-                   <strong>Umi</strong> - task management and music all in one to help student increase focus and productivity!
+                   
                 </p>
                 <h2>Past Projects</h2>
                 <p>
-                    [update when more projects are created] 
+                    <strong>Umi</strong> - task management and music all in one to help student increase focus and productivity!
                 </p>
             </div>
             <div className="images">
