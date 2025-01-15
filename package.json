@@ -4,7 +4,7 @@
   "description": "A simple vanilla JavaScript project",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "javascript",
@@ -13,7 +13,6 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
-  "dependencies": {}
+    "gh-pages": "^6.3.0"
+  }
 }
