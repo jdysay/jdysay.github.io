@@ -2,7 +2,7 @@
   "name": "my-vanilla-js-project",
   "version": "1.0.0",
   "description": "A simple vanilla JavaScript project",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
