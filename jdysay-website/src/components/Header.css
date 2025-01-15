@@ -1,4 +1,4 @@
-nav {
+#header nav {
     font-size: medium;
     font-family: 'Bagel Fat One', sans-serif;
     top: 0;
@@ -10,26 +10,26 @@ nav {
     border-radius: 80px;
 }
 
-nav ul {
+#header nav ul {
     list-style: none;
     margin-left: 350px;
 }
 
-nav ul li {
+#header nav ul li {
     display: inline;
     margin-right: 100px;
 }
 
-nav ul li a{
+#header nav ul li a{
     color: #f4f4f4;
     text-decoration: none;
 }
 
-nav ul li a:hover {
+#header nav ul li a:hover {
     text-decoration: underline;
 }
 
-.header {
+#header {
     background-color: #FD78B8;
     color: #f4f4f4;
     border-radius: 80px;
