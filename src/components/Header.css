@@ -1,0 +1,41 @@
+nav {
+    font-size: medium;
+    font-family: 'Bagel Fat One', sans-serif;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-color: #FD78B8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 350px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #FD78B8;
+    color: #f4f4f4;
+    border-radius: 80px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bagel Fat One', sans-serif;
+}

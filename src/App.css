@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2{
+  font-family: 'Bagel Fat One', sans-serif;
+}
+
+p {
+  font-family: 'Georama', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.images {
+  background-color: #f4f4f4;
+  border: 10px solid #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 75px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
