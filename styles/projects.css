@@ -22,3 +22,13 @@ h2 {
     color: #F457A3;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: #494949;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #F457A3;
+}
