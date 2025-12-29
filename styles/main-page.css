@@ -1,39 +1,73 @@
-.main-page {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-    color: #494949;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
 }
 
-.text-content {
-    margin-left: 20px;
-    padding-left: 50px;
-    line-height: 1.6;
-    padding-bottom: 20px;
+/* Hero */
+.hero {
+  margin-bottom: 3rem;
 }
 
-.sidebar-content {
-    background-color: #f4f4f4;
-    color:#494949;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 50px;
-    border-radius: 25px;
-    line-height: 2;
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-h2 {
-    color: #F457A3;
+.typing-line {
+  font-size: 1.2rem;
+  color: #e35aa1;
+  min-height: 1.5em;
 }
 
-a {
-    color: #494949;
-    text-decoration: none;
+/* About */
+.about {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #F457A3;
+.about img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #f6c1dc;
+}
+
+.about p {
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Education */
+.education {
+  margin-bottom: 3rem;
+}
+
+.education h3 {
+  color: #e35aa1;
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.links a {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #f6c1dc;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.links a:hover {
+  background: #e35aa1;
+  transform: translateY(-2px);
 }
