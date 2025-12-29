@@ -18,7 +18,7 @@
 }
 
 .experience-item a {
-  color: #d63c87;
+  color: var(--pink-main);
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@
 /* Skills */
 .skills-list {
   display: grid;
-  grid-template-columns: repeat(9, minmax(0, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   gap: 0.5rem 1rem;
   list-style: none;
   padding: 0;
