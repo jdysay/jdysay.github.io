@@ -1,6 +1,6 @@
 // scripts/app.js
 
-const typingText = "Software Systems student building thoughtful, user-focused software."
+const typingText = "Software Systems student who loves creating new projects and inspiring others."
 
 document.getElementById('header').innerHTML = `
 <div class="header-content">
