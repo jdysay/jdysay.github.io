@@ -28,6 +28,7 @@ typeEffect();
 
 document.getElementById('footer').innerHTML = `
   <p>&copy; 2026 Jaycie Say</p>
+ 
   <div class="footer-links">
     <a href="mailto:jaycie.say@outlook.com" target="_blank" title="Email">
       <i class="fas fa-envelope"></i>
@@ -39,6 +40,7 @@ document.getElementById('footer').innerHTML = `
       <i class="fab fa-linkedin"></i>
     </a>
   </div>
+   <button id="theme-toggle">☽ Dark Mode</button>
 `
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -59,4 +61,26 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   elements.forEach((el) => observer.observe(el));
+});
+
+const button = document.getElementById("theme-toggle");
+
+// Load saved theme
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+  button.textContent = "☀ Light Mode";
+}
+
+button.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  const isDark = document.body.classList.contains("dark");
+
+  if (isDark) {
+    button.textContent = "☀ Light Mode";
+    localStorage.setItem("theme", "dark");
+  } else {
+    button.textContent = "☽ Dark Mode";
+    localStorage.setItem("theme", "light");
+  }
 });
