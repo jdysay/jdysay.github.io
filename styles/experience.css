@@ -52,11 +52,11 @@
 }
 
 .skills-list h2 {
-    color: #f4f4f4;
+    color: var(--pink-main);
 }
 
 .skills-list li {
-  background: white;
+  background: var(--card-bg);
   padding: 0.4rem 0.8rem;
   border-radius: 12px;
   text-align: center;

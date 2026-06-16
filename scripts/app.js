@@ -2,16 +2,25 @@
 
 const typingText = "Software Systems student who loves creating new projects and inspiring others."
 
+
 document.getElementById('header').innerHTML = `
-<div class="header-content">
-  <h1>Jaycie Say</h1>
-  <p class="typing"><span id="typing-text"></span></p>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="experience.html">Experience</a>
-    <a href="projects.html">Projects</a>
-  </nav>
+<div class="header-wrapper">
+  <div class="header-left"></div>
+
+  <div class="header-center">
+    <h1>Jaycie Say</h1>
+    <p class="typing"><span id="typing-text"></span></p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+    </nav>
   </div>
+
+  <div class="header-right">
+    <button id="theme-toggle">☽</button>
+  </div>
+</div>
 `;
 
 let i = 0;
@@ -39,8 +48,11 @@ document.getElementById('footer').innerHTML = `
     <a href="https://www.linkedin.com/in/jaycie-say-923611274" target="_blank" title="LinkedIn">
       <i class="fab fa-linkedin"></i>
     </a>
-  </div>
-   <button id="theme-toggle">☽ Dark Mode</button>
+
+    </div> 
+
+
+
 `
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -68,7 +80,7 @@ const button = document.getElementById("theme-toggle");
 // Load saved theme
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark");
-  button.textContent = "☀ Light Mode";
+  button.textContent = "☀";
 }
 
 button.addEventListener("click", () => {
@@ -77,10 +89,10 @@ button.addEventListener("click", () => {
   const isDark = document.body.classList.contains("dark");
 
   if (isDark) {
-    button.textContent = "☀ Light Mode";
+    button.textContent = "☀";
     localStorage.setItem("theme", "dark");
   } else {
-    button.textContent = "☽ Dark Mode";
+    button.textContent = "☽";
     localStorage.setItem("theme", "light");
   }
 });

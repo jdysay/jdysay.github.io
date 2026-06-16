@@ -170,8 +170,25 @@ body.dark{
   font-family: 'Bagel Fat One', sans-serif;
 }
 
-.header-content {
+
+.header-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-center {
   text-align: center;
+}
+
+.header-right {
+  justify-self: end;
+  align-self: end;
+}
+
+.header-left {
+  /* empty spacer */
 }
 
 .header-content h1 {
@@ -246,6 +263,7 @@ nav a:hover {
 }
 .footer-links {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-links a {
@@ -258,6 +276,15 @@ nav a:hover {
 .footer-links a:hover {
   transform: scale(1.2);
   color: var(--pink-main);
+}
+
+#theme-toggle {
+  background: var(--pink-main);
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border-style: none;
 }
 
 @media (max-width: 900px) {
@@ -336,13 +363,3 @@ nav a:hover {
 .scroll-delay-3 { transition-delay: 0.3s; }
 
 
-
-#theme-toggle {
-  display: inline-block;
-  background: var(--pink-main);
-  color: white;
-  padding: 0.6rem 1rem;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-  border-color: #ff7eb6;
-}
