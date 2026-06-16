@@ -27,7 +27,7 @@ typeEffect();
 
 
 document.getElementById('footer').innerHTML = `
-  <p>&copy; 2025 Jaycie Say</p>
+  <p>&copy; 2026 Jaycie Say</p>
   <div class="footer-links">
     <a href="mailto:jaycie.say@outlook.com" target="_blank" title="Email">
       <i class="fas fa-envelope"></i>
