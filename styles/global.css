@@ -187,9 +187,6 @@ body.dark{
   align-self: end;
 }
 
-.header-left {
-  /* empty spacer */
-}
 
 .header-content h1 {
   font-size: 3rem;
