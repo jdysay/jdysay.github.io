@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
   --pink-main: #ff7eb6;
@@ -19,11 +19,11 @@ h1, h2{
 }
 
 p {
-  font-family: 'DM Sans', 'Georama', sans-serif;
+  font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
 }
 
 ul li {
-  font-family: 'Georama', sans-serif;
+  font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
 }
 
 html {
@@ -32,7 +32,7 @@ html {
 
 html, body, #root {
   margin: 0;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
   background: transparent;
   color: var(--text);
   min-height: 100vh;
@@ -139,7 +139,7 @@ body.dark{
 /* Headings */
 .text-content h2 {
   margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-weight: 600;
 }
 
