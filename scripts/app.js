@@ -9,7 +9,7 @@ document.getElementById('header').innerHTML = `
 
   <div class="header-center">
     <h1>Jaycie Say</h1>
-    <p class="typing"><span id="typing-text"></span></p>
+  <p class="typing"><span id="typing-text"></span></p>
     <nav>
       <a href="index.html">Home</a>
       <a href="experience.html">Experience</a>
@@ -34,6 +34,23 @@ function typeEffect() {
 
 typeEffect();
 
+const header = document.getElementById('header');
+
+function updateMouseGlow(event) {
+  document.documentElement.style.setProperty('--mouse-x', `${event.clientX}px`);
+  document.documentElement.style.setProperty('--mouse-y', `${event.clientY}px`);
+
+  if (header) {
+    const rect = header.getBoundingClientRect();
+    const relativeX = ((event.clientX - rect.left) / rect.width) * 100;
+    const relativeY = ((event.clientY - rect.top) / rect.height) * 100;
+
+    header.style.setProperty('--header-mouse-x', `${Math.max(0, Math.min(100, relativeX))}%`);
+    header.style.setProperty('--header-mouse-y', `${Math.max(0, Math.min(100, relativeY))}%`);
+  }
+}
+
+window.addEventListener('pointermove', updateMouseGlow);
 
 document.getElementById('footer').innerHTML = `
   <p>&copy; 2026 Jaycie Say</p>
