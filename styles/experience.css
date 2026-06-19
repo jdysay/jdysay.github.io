@@ -17,7 +17,6 @@
 
 /* Experience items */
 .experience-item {
-  background: var(--card-bg);
   flex: 1;
 }
 
@@ -55,18 +54,16 @@
 
 /* Image */
 .images {
-  padding: 10px 10px 40px;
-  background-color: #fff;
-  border: 8px solid #fff;
-  border-radius: 5px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 2rem;
   flex: 1;
+
 }
 
 .images img {
-  max-width: 260px;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+  max-width: 400px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -75,6 +72,16 @@
 .images img:hover {
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(255, 126, 182, 0.35);
+}
+
+.experience-image {
+  
+  padding: 10px 10px 40px;
+  background-color: #fff;
+  border: 8px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .experience-grid {
