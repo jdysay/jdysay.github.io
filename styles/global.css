@@ -365,7 +365,7 @@ nav a:hover {
 .footer-links a {
   color: var(--main);
   margin: 0 10px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 

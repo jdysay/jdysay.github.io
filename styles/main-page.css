@@ -63,7 +63,7 @@
 
 .contact-links a{
   font-size: 3rem;
-  color: white;
+  color: var(--main);
 }
 
 .contact-links i {
@@ -73,7 +73,7 @@
 }
 
 .contact-links a:hover {
-  color: var(--main);
+  color: var(--soft);
 }
 
 .contact-links a:hover i {
