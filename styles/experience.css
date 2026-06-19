@@ -70,15 +70,15 @@
 }
 
 .images img:hover {
-  transform: scale(1.05);
+  transform: scale(1.005);
   box-shadow: 0 20px 40px rgba(255, 126, 182, 0.35);
 }
 
 .experience-image {
   
   padding: 10px 10px 40px;
-  background-color: #fff;
-  border: 8px solid #fff;
+  background-color: var(--card-bg);
+  border: 8px solid var(--card-bg);
   border-radius: 5px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

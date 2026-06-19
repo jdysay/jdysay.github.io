@@ -141,15 +141,15 @@ body.dark{
 /* Headshot */
 .intro-image {
   padding: 10px 10px 40px;
-  background-color: #fff;
-  border: 8px solid #fff;
+  background-color: var(--card-bg);
+  border: 8px solid var(--card-bg);
   border-radius: 5px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .intro-image:hover {
-  box-shadow: 0 0 50px var(--gradient-start);
+  box-shadow: 0 20px 40px rgba(255, 126, 182, 0.35);
   transform: scale(1.005);
 }
 
