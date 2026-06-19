@@ -46,6 +46,7 @@
   gap: 0.5rem 1rem;
   list-style: none;
   padding: 0;
+ 
 }
 
 .skills-list h2 {
@@ -58,11 +59,16 @@
   border-radius: 12px;
   text-align: center;
   font-size: 0.9rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
 }
 
 .skills-list li:hover {
   background: var(--main);
   color: white;
+  box-shadow: 0 4px 12px var(--main);
+  transform: scale(1.05);
 }
 
 /* Image */

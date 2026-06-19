@@ -18,7 +18,9 @@ document.getElementById('header').innerHTML = `
   </div>
 
   <div class="header-right">
-    <button id="theme-toggle">☽</button>
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">☽</span>
+    </button>
   </div>
 </div>
 `;
@@ -93,23 +95,32 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const button = document.getElementById("theme-toggle");
+const icon = button.querySelector(".theme-icon");
 
 // Load saved theme
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark");
-  button.textContent = "☀";
+  icon.textContent = "☀";
 }
 
 button.addEventListener("click", () => {
+  button.classList.remove("theme-switching");
+  void button.offsetWidth;
+  button.classList.add("theme-switching");
+
   document.body.classList.toggle("dark");
 
   const isDark = document.body.classList.contains("dark");
 
   if (isDark) {
-    button.textContent = "☀";
+    icon.textContent = "☀";
     localStorage.setItem("theme", "dark");
   } else {
-    button.textContent = "☽";
+    icon.textContent = "☽";
     localStorage.setItem("theme", "light");
   }
+
+  setTimeout(() => {
+    button.classList.remove("theme-switching");
+  }, 300);
 });
