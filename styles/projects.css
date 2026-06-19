@@ -33,7 +33,7 @@
 .project-link {
   display: inline-block;
   margin-bottom: 1rem;
-  background: var(--pink-main);
+  background: var(--main);
   color: white;
   padding: 0.6rem 1.2rem;
   border-radius: 12px;
@@ -42,7 +42,7 @@
 }
 
 .project-link:hover {
-  background: #f457a3;
+  background: var(--soft);
 }
 
 /* Image */

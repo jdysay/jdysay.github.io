@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  --pink-main: #ff7eb6;
-  --pink-soft: #ffe3f0;
-  --text: #333;
+  --main: #e5989b;
+  --soft: #b5838d;
+  --text: #6d6875;
   --card-bg: #ffffff;
   --bg: #fafafa;
-  --gradient-start: #ff8fcf;
-  --gradient-end: #ffb3dd;
+  --gradient-start: #ffb4a2;
+  --gradient-end: #ffcdb2;
   --mouse-x: 50%;
   --mouse-y: 50%;
 }
@@ -18,12 +18,22 @@ h1, h2{
   font-family: 'Bagel Fat One', sans-serif;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
 p {
   font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
+  font-weight: 500;
 }
 
 ul li {
   font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
+  font-weight: 500;
 }
 
 html {
@@ -56,7 +66,7 @@ body::before {
       rgba(244, 118, 172, 0.1) 18%,
       transparent 50%
     ),
-    linear-gradient(135deg, #fbe5f0 0%, #fbeaf2 50%, #fffafc 100%);
+    linear-gradient(135deg, #fcf2ed 0%, #f9d1c7 50%, #fffafc 100%);
   pointer-events: none;
 }
 
@@ -66,9 +76,9 @@ body.dark::before {
       circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
       rgba(255, 143, 196, 0.18),
       rgba(255, 143, 196, 0.06) 18%,
-      transparent 60%
+      transparent 90%
     ),
-    linear-gradient(135deg, #161016 0%, #271323 50%, #1e0d16 100%);
+   linear-gradient(135deg, #161110 0%, #332522 50%, #1c1517 100%);
 }
 
 body::after {
@@ -89,13 +99,13 @@ body.dark::after {
 }
 
 body.dark{
-  --pink-main: #ff8fc4;
-  --pink-soft: #3a2430;
-  --text: #f2f2f2;
-  --card-bg: #1e1e1e;
-  --bg: #121212;
-  --gradient-start: #b84f86; 
-  --gradient-end: #d96aa7;
+  --main: #f2a8a8;
+  --soft: #b88c95;
+  --text: #f5f2f4;
+  --card-bg: #28232b;
+  --bg: #161319;
+  --gradient-start: #d78c91;
+  --gradient-end: #e3b09d;
 }
 
 .main-page {
@@ -128,12 +138,25 @@ body.dark{
 }
 
 /* Headshot */
+.intro-image {
+  padding: 10px 10px 30px;
+  background-color: #fff;
+  border: 8px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-image:hover {
+  box-shadow: 0 0 30px var(--main);
+}
+
 .headshot {
   width: 220px;
   height: 220px;
+  display: block;
   object-fit: cover;
-  border-radius: 20px; /* modern rounded corners */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 /* Headings */
@@ -158,7 +181,7 @@ body.dark{
 
 
 .text-content h2 {
-  color: var(--pink-main);
+  color: var(--main);
   margin-top: 0;
 }
 
@@ -190,12 +213,12 @@ body.dark{
 }
 
 .sidebar h2 {
-  color: var(--pink-main);
+  color: var(--main);
   margin-top: 0;
 }
 
 .sidebar a {
-  color: var(--pink-main);;
+  color: var(--main);;
   font-weight: 500;
   text-decoration: none;
 }
@@ -205,7 +228,7 @@ body.dark{
 }
 
 .sidebar-content h2 {
-  color: var(--pink-main); 
+  color: var(--main); 
 }
 
 
@@ -311,16 +334,16 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
   text-decoration: underline;
-  color: var(--pink-main);;
+  color: var(--main);;
 }
 
 nav a:hover {
-  color: var(--pink-main);
+  color: var(--main);
 }
 
 #footer {
    /* background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end)); */
-  color: var(--pink-main);
+  color: var(--main);
   text-align: center;
   padding: 10px;
   bottom: 0;
@@ -333,7 +356,7 @@ nav a:hover {
 }
 
 .footer-links a {
-  color: var(--pink-main);
+  color: var(--main);
   margin: 0 10px;
   font-size: 1.2rem;
   transition: transform 0.2s ease, color 0.2s ease;
@@ -341,11 +364,11 @@ nav a:hover {
 
 .footer-links a:hover {
   transform: scale(1.2);
-  color: var(--pink-main);
+  color: var(--soft);
 }
 
 #theme-toggle {
-  background: var(--pink-main);
+  background: var(--main);
   color: white;
   padding: 0.6rem 1rem;
   border-radius: 12px;
@@ -368,23 +391,10 @@ nav a:hover {
 
 .sidebar a[href$=".pdf"] {
   display: inline-block;
-  background: var(--pink-main);
+  background: var(--main);
   color: white;
   padding: 0.6rem 1rem;
   border-radius: 12px;
-}
-
-
-
-.headshot {
-  transition: 
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.headshot:hover {
-  transform: scale(1.05);
-  box-shadow: 10px 20px 30px rgba(255, 126, 182, 0.35);
 }
 
 @media (prefers-reduced-motion: reduce) {

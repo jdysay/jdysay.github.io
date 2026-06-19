@@ -1,72 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jaycie Say</title>
-  <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="styles/main-page.css">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-/>
-<script>
-if (localStorage.getItem("theme") === "dark") {
-  document.documentElement.classList.add("dark");
-}
-</script>
-</head>
-<body>
-  <header id="header"></header>
-  <main>
-    <div class="main-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaycie Say</title>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/main-page.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="main-page">
+        <div class="text-content scroll-in scroll-delay-1">
+          <h2>Hi!</h2>
 
-       <div class="text-content scroll-in scroll-delay-1">
-  <h2>Hi!</h2>
+          <div class="intro-row">
+            <p class="intro-text">
+              I’m Jaycie Say, a third year Software Systems student at Simon
+              Fraser University. I’m an aspiring software developer with
+              experience in Python, Java, and C/C++, and a strong foundation in
+              algorithms, operating systems, and software design. I enjoy
+              turning ideas into clean, user-focused solutions and thrive in
+              collaborative team environments. Beyond coding, I’m passionate
+              about leadership, mentorship, and building inclusive tech
+              communities. Outside of school, you’ll usually find me playing
+              music, stress-baking, or exploring the outdoors!
+            </p>
+            <div class="intro-image">
+              <img
+                src="images/headshot.jpg"
+                alt="headshot"
+                class="headshot scroll-in scroll-delay-3"
+              />
+            </div>
+          </div>
 
-    <div class="intro-row">
-      <p class="intro-text">
-        I’m Jaycie Say, a third year Software Systems student at Simon Fraser University.
-        I’m an aspiring software developer with experience in Python, Java, and C/C++, and a
-        strong foundation in algorithms, operating systems, and software design. I enjoy turning
-        ideas into clean, user-focused solutions and thrive in collaborative team environments.
-        Beyond coding, I’m passionate about leadership, mentorship, and building inclusive tech
-        communities. Outside of school, you’ll usually find me playing music, stress-baking, or
-        exploring the outdoors!
-      </p>
+          <h2>Education</h2>
+          <p><strong>Simon Fraser University</strong></p>
+          <p>Bachelor of Computer Science – Software Systems (2023–Present)</p>
+        </div>
 
-      <img src="images/headshot.jpg" alt="headshot" class="headshot scroll-in scroll-delay-3">
-    </div>
-
-    <h2>Education</h2>
-    <p><strong>Simon Fraser University</strong></p>
-    <p>Bachelor of Computer Science – Software Systems (2023–Present)</p>
-  </div>
-    
         <div class="sidebar">
           <div class="sidebar-content scroll-in scroll-delay-2">
             <h2>Resume</h2>
             <p>
-                <a href="resume.pdf">Download my resume</a>
-
+              <a href="resume.pdf">Download my resume</a>
             </p>
-            <h2>Contact</h2> 
+            <h2>Contact</h2>
             <p>
               <strong>Email:</strong>
-               <a href="mailto:jaycie.say@outlook.com">jaycie.say@outlook.com</a>
+              <a href="mailto:jaycie.say@outlook.com">jaycie.say@outlook.com</a>
             </p>
-           
+
             <p>
               <strong>School Email:</strong>
-               <a href="mailto:jaycie.say@outlook.com">jds34@sfu.ca</a>
+              <a href="mailto:jaycie.say@outlook.com">jds34@sfu.ca</a>
             </p>
           </div>
         </div>
-    
       </div>
-  </main>
-  <footer id="footer"></footer>
-  <script src="scripts/app.js"></script>
-</body>
+    </main>
+    <footer id="footer"></footer>
+    <script src="scripts/app.js"></script>
+  </body>
 </html>
