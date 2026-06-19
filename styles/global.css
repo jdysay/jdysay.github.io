@@ -212,7 +212,9 @@ body.dark{
   padding: 1.5rem 0.75rem;
   border-radius: 0;
   box-shadow: none;
+ 
 }
+
 
 .sidebar h2 {
   color: var(--main);

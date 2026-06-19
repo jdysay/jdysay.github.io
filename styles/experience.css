@@ -39,37 +39,7 @@
   line-height: 1.6;
 }
 
-/* Skills */
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(10, minmax(0, 1fr));
-  gap: 0.5rem 1rem;
-  list-style: none;
-  padding: 0;
- 
-}
 
-.skills-list h2 {
-    color: var(--pink-main);
-}
-
-.skills-list li {
-  background: var(--card-bg);
-  padding: 0.4rem 0.8rem;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 0.9rem;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.3s ease;
-}
-
-.skills-list li:hover {
-  background: var(--main);
-  color: white;
-  box-shadow: 0 4px 12px var(--main);
-  transform: scale(1.05);
-}
 
 /* Image */
 .images {
