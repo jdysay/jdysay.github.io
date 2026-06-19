@@ -142,13 +142,14 @@ body.dark{
   padding: 10px 10px 30px;
   background-color: #fff;
   border: 8px solid #fff;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .intro-image:hover {
   box-shadow: 0 0 30px var(--main);
+  transform: scale(1.005);
 }
 
 .headshot {
@@ -156,7 +157,7 @@ body.dark{
   height: 220px;
   display: block;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 /* Headings */
@@ -218,13 +219,14 @@ body.dark{
 }
 
 .sidebar a {
-  color: var(--main);;
+  color: var(--main);
   font-weight: 500;
   text-decoration: none;
 }
 
 .sidebar a:hover {
   text-decoration: underline;
+  color: var(--soft);
 }
 
 .sidebar-content h2 {
@@ -395,6 +397,13 @@ nav a:hover {
   color: white;
   padding: 0.6rem 1rem;
   border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar a[href$=".pdf"]:hover {
+  background: var(--soft);
+  text-decoration: none;
+  transform: scale(1.05);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -15,7 +15,7 @@
 }
 
 .experience-item a {
-  color: var(--main);
+  color: var(--soft);
   text-decoration: none;
 }
 
@@ -58,6 +58,11 @@
   border-radius: 12px;
   text-align: center;
   font-size: 0.9rem;
+}
+
+.skills-list li:hover {
+  background: var(--main);
+  color: white;
 }
 
 /* Image */
