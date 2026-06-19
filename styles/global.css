@@ -353,20 +353,19 @@ nav a:hover {
    /* background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end)); */
   color: var(--main);
   text-align: center;
-  padding: 10px;
-  bottom: 0;
   width: 100%;
-  font-size: small;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
-.footer-links {
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+#footer p {
+  margin: 0.5rem 0;
 }
 
 .footer-links a {
   color: var(--main);
   margin: 0 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
