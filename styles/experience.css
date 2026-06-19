@@ -40,12 +40,12 @@
 }
 
 /* Lists */
-.work-experience-item .experience-item ul {
+.work-experience-item ul, .experience-item ul {
   margin-top: 0.6rem;
   padding-left: 1.2rem;
 }
 
-.work-experience-item .experience-item li {
+.work-experience-item li, .experience-item li {
   margin-bottom: 0.4rem;
   line-height: 1.6;
 }
@@ -64,6 +64,7 @@
   object-fit: cover;
   border-radius: 5px;
   max-width: 400px;
+  max-height: 300px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -75,7 +76,6 @@
 }
 
 .experience-image {
-  
   padding: 10px 10px 40px;
   background-color: var(--card-bg);
   border: 8px solid var(--card-bg);
