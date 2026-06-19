@@ -64,10 +64,18 @@
 .contact-links a{
   font-size: 3rem;
   color: white;
-  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-links i {
+ transition:
+    transform 0.2s ease,
+    color 0.3s ease;
 }
 
 .contact-links a:hover {
   color: var(--main);
-  transform: scale(1.2);
+}
+
+.contact-links a:hover i {
+  transform: scale(1.1);
 }
