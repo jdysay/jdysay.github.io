@@ -79,3 +79,32 @@
 .contact-links a:hover i {
   transform: scale(1.1);
 }
+
+@media (max-width: 640px) {
+  .info-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .resume {
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 0;
+  }
+
+  .education {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .contact {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: left;
+    align-items: center;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
