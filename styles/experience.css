@@ -1,6 +1,5 @@
 .experience-page {
   max-width: 1100px;
-  margin: 3rem auto;
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
@@ -103,12 +102,22 @@
 }
 
 /* Mobile layout */
-@media (max-width: 900px) {
+@media (max-width: 640px) {
   .experience-grid {
     grid-template-columns: 1fr;
   }
 
   .experience-grid .sidebar-content {
     grid-column: auto;
+  }
+
+  .experience-container {
+    flex-direction: column;
+  }
+
+  .experience-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
   }
 }
