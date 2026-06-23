@@ -139,7 +139,7 @@ body.dark{
 }
 
 /* Headshot */
-.intro-image {
+img {
   padding: 10px 10px 40px;
   background-color: var(--card-bg);
   border: 8px solid var(--card-bg);

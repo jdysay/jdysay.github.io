@@ -7,7 +7,6 @@
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
 }
 
 .project-grid > section {
@@ -16,8 +15,17 @@
 }
 
 /* Project card */
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0; 
+}
+
 .project-item {
-  margin-top: 1.5rem;
+  flex: 1;
 }
 
 .project-description {
@@ -47,19 +55,24 @@
 
 /* Image */
 .images {
-  display: flex;
-  justify-content: center;
+  flex: 1;
 }
 
 .images img {
-  max-width: 280px;
-  border-radius: 20px;
+  padding: 5px 5px 30px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-bg);
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+  max-width: 500px;
+  max-height: 400px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .images img:hover {
-  transform: scale(1.05);
+  transform: scale(1.005);
   box-shadow: 0 20px 40px rgba(255, 126, 182, 0.35);
 }
 
