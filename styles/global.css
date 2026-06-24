@@ -338,9 +338,9 @@ nav a.active::after {
 
 nav a:hover,
 nav a.active {
-  color: var(--main);
+  color: #f79f9f;
   transform: translateY(-2px) scale(1.04);
-  text-shadow: 0 4px 12px rgba(246, 230, 230, 0.25);
+  text-shadow: 0 2px 8px rgba(253, 234, 234, 0.25);
 }
 
 nav a.active::after {
