@@ -38,6 +38,17 @@ typeEffect();
 
 const header = document.getElementById('header');
 
+function setActiveNavLink(link) {
+  document.querySelectorAll('nav a').forEach((navLink) => {
+    navLink.classList.remove('active');
+  });
+
+  if (link) {
+    link.classList.add('active');
+    localStorage.setItem('active-nav-link', link.getAttribute('href'));
+  }
+}
+
 function updateMouseGlow(event) {
   document.documentElement.style.setProperty('--mouse-x', `${event.clientX}px`);
   document.documentElement.style.setProperty('--mouse-y', `${event.clientY}px`);
@@ -53,6 +64,23 @@ function updateMouseGlow(event) {
 }
 
 window.addEventListener('pointermove', updateMouseGlow);
+
+const navLinks = document.querySelectorAll('nav a');
+
+navLinks.forEach((link) => {
+  link.addEventListener('click', () => setActiveNavLink(link));
+});
+
+const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const savedNavLink = localStorage.getItem('active-nav-link');
+const matchingLink = Array.from(navLinks).find((link) => {
+  const href = link.getAttribute('href');
+  return href === savedNavLink || href === currentPage || href === `./${currentPage}`;
+});
+
+if (matchingLink) {
+  setActiveNavLink(matchingLink);
+}
 
 document.getElementById('footer').innerHTML = `
   <p>&copy; 2026 Jaycie Say</p>

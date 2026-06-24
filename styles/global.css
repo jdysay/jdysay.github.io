@@ -316,26 +316,50 @@ nav a{
   text-decoration: none;
   position: relative;
   font-size: 1.2rem;
+  padding-bottom: 0.2rem;
+  transition: color 0.25s ease, transform 0.25s ease, text-shadow 0.25s ease;
 }
 
 nav a::after {
+  content: '';
   position: absolute;
   width: 0;
   height: 2px;
-  background: white;
   left: 0;
   bottom: -4px;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease, background 0.3s ease, transform 0.3s ease;
+  transform-origin: left;
 }
 
-nav a:hover::after {
+nav a:hover::after,
+nav a.active::after {
   width: 100%;
-  text-decoration: underline;
-  color: var(--main);;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
   color: var(--main);
+  transform: translateY(-2px) scale(1.04);
+  text-shadow: 0 4px 12px rgba(246, 230, 230, 0.25);
+}
+
+nav a.active::after {
+  animation: nav-link-pop 0.35s ease;
+}
+
+nav a:active {
+  transform: scale(0.96);
+}
+
+@keyframes nav-link-pop {
+  0% {
+    transform: scaleX(0.7);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
 
 #footer {
