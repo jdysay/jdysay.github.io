@@ -41,7 +41,8 @@ html {
 }
 
 html, body, #root {
-  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   font-family: 'Open Sans', 'DM Sans', 'Georama', sans-serif;
   background: transparent;
   color: var(--text);
@@ -102,7 +103,7 @@ body.dark{
   --main: #f2a8a8;
   --soft: #b88c95;
   --text: #f5f2f4;
-  --card-bg: #28232b;
+  --card-bg: #605159;
   --bg: #161319;
   --gradient-start: #d78c91;
   --gradient-end: #e3b09d;
